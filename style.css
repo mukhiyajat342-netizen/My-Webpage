@@ -12,3 +12,18 @@
     padding-right:15px;
     margin-top:20px; 
 }
+
+.nav-links ul {
+    display:flex;
+    flex-direction:row;
+    gap:20px;
+    /* justify-content:space-around;  */ 
+    list-style:none; 
+}
+.nav-links ul li a {
+    text-decoration: none;
+}
+.nav-links ul li  :hover {
+          color: yellow;
+          background-color: rgb(12, 12, 11);
+}
