@@ -2,11 +2,17 @@
     padding:0; 
     margin:0; 
     box-sizing: border-box;
-
+}
+body {
+    background-color: #FFFFFF;
+}
+.head{
+    color:#5B2EFF; 
 }
 .navbar{
     display:flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between; 
     padding-left:10px;
     padding-right:15px;
@@ -16,14 +22,35 @@
 .nav-links ul {
     display:flex;
     flex-direction:row;
-    gap:20px;
+    align-items: center;
+    gap:20px; 
+    /* gap because justyfy contet not work , a not have space itself to attend this property  */
     /* justify-content:space-around;  */ 
     list-style:none; 
 }
 .nav-links ul li a {
     text-decoration: none;
+    color:black; 
 }
-.nav-links ul li  :hover {
-          color: yellow;
-          background-color: rgb(12, 12, 11);
+.nav-links ul li :hover {
+          background-color:#5B2EFF;
+          text-decoration: underline;
+}
+.button button {
+    display: flex;
+    flex-shrink:0;
+    justify-content: center;
+    align-items: center;
+    padding:10px 22px ; 
+    background-color:#5B2EFF;
+    color:#FFFFFF; 
+    border: 2px solid #E5E0FF;
+    border-radius: 15px;
+    cursor: pointer ;
+}
+
+.logo{
+    display: flex;
+    flex-shrink: 0;
+    font-size: 30px;
 }
