@@ -66,6 +66,8 @@ body {
 
 .footer{
     background-color: black;
+    padding:10px;
+    margin:20px 14px; 
     border: 2px solid #FFFFFF; 
     border-radius: 15px;
     display: flex;
