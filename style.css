@@ -96,3 +96,7 @@ body {
     object-fit: contain;
 }
 
+.icons {
+    display: flex;
+    gap:15px;
+}
