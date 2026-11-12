@@ -81,8 +81,9 @@ body {
 .headtext{
     color:#FFFFFF
 }
-.ul{
+.ul ul{
     color:#E5E0FF;
     display: flex;
+    gap:20px;
 }
 
