@@ -63,3 +63,26 @@ body {
 .code {
     color:#5B2EFF;
 }
+
+.footer{
+    background-color: black;
+    border: 2px solid #FFFFFF; 
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:95%;
+
+}
+.codesymbol{
+    color: #5B2EFF;
+}
+.headtext{
+    color:#FFFFFF
+}
+.ul{
+    color:#E5E0FF;
+    display: flex;
+}
+
