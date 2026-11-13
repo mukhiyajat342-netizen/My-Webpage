@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #FFFFFF;
+    background-color: #fff;
 }
 
 .head {
@@ -42,7 +42,10 @@ body {
 
 .nav-links ul li a:hover {
     color: #5B2EFF;
-    text-decoration: underline;
+    font-size: larger;
+    font-weight: 900;
+    transition: transform 1s ease;
+    transform: rotateY(35deg) rotateX(15deg) translateZ(30px);
 }
 
 .button button {
@@ -51,7 +54,7 @@ body {
     color: #FFFFFF;
     border: 2px solid #E5E0FF;
     border-radius: 15px;
-    cursor: pointer;
+    cursor:pointer;
 }
 
 .button {
